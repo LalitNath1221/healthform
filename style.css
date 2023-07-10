@@ -1,0 +1,153 @@
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	margin: 0%;
+	padding: 0%;
+}
+body{
+	background: #2f343a;
+}
+.container-register {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+form {
+	width: 500px;
+	padding: 30px;
+	background: #1f2229;
+	border-radius: 15px;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: #ffff;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	margin-block: 10px;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-size: 16px;
+	background-color: white;
+}
+label {
+	color: #888;
+	font-size: 18px;
+}
+
+button.btn_submit {
+	background: #da3f4f;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	width: 100%;
+	margin: 10px auto;
+	font-weight: 600;
+	font-size: 16px;
+}
+button.btn_submit:hover{
+	background: #55555599;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+}
+.success,.error{
+	display: block;
+	position: absolute;
+	top: 1rem;
+	padding: 1rem;
+	width: calc(100% - 20px);
+	margin: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	box-shadow: 6px 6px 10px -1px gray;
+}
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+.footer-msg{
+	text-align: center;
+	width: 100%;
+}
+.footer-msg a{
+	color: #1690A7;
+	cursor: pointer;
+
+}
+
+/*FETCH FILE STYLING*/
+
+.container-fetch {
+	width: 70%;
+	margin-top: 2rem;
+	margin-inline: auto;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+.report-view{
+	margin-inline: auto;
+	width: 70%;
+}
+form.form-fetch{
+	width: 100%;
+	margin-inline: auto;
+	margin-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+form.form-fetch input{
+	width: 70%;
+}
+form.form-fetch button{
+	width: 20%;
+}
+.view-details{
+	padding: 2rem;
+	margin-top: 1rem;
+	border-radius: 15px;
+}
+.view-details .header{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.header p{
+	width: 50%;
+	padding: 10px;
+}
+.view-details embed{
+	width: 100%;
+    padding-top: 3rem;
+    /* margin-top: 1rem; */
+    height: 100vh;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
