@@ -15,3 +15,5 @@ CREATE TABLE users (
     helth-report VARCHAR(225)
 );
 </pre>
+
+<p>place the project folder in the htdocs folder (xampp)</p>
