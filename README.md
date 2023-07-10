@@ -1,11 +1,11 @@
 # Steps to execute 
-1. create database "db_health" and table "users"
---CREATE DATABASE--
-CREATE DATABASE db_health;
-USE db_health;
+<h1>1. create database "db_health" and table "users"</h1>
+<h2>--CREATE DATABASE--</h2>
+<pre>CREATE DATABASE db_health;</pre>
+<pre>USE db_health;</pre>
 
---CREATE TABLE--
-
+<h2>--CREATE TABLE--</h2>
+<pre>
 CREATE TABLE users ( 
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
@@ -14,3 +14,4 @@ CREATE TABLE users (
     email VARCHAR(50) NOT NULL,
     helth-report VARCHAR(225)
 );
+</pre>
