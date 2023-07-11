@@ -7,6 +7,7 @@ include "db_conn.php";
 <head>
 	<title>Get User Details</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
         <?php if (isset($_GET['msg'])) { ?>
